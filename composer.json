@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dragonmantank/zendexpressive-session-middleware"
+        }
+    ],
+
+    "require": {
+        "zendframework/zend-expressive": "^0.5.3",
+        "zendframework/zend-expressive-fastroute": "^1.1",
+        "zendframework/zend-servicemanager": "~2.6",
+        "zendframework/zend-db": "^2.6",
+        "zendframework/zend-expressive-twigrenderer": "^1.1",
+        "dragonmantank/zendexpressive-session-middleware": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src"
+        }
+    }
+}
